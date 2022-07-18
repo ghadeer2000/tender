@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplicationtest2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MySingleton"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/xml"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplicationTest2"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Crafts.CraftDoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Crafts.CraftDeliveryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Crafts.CraftMyRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Crafts.CraftCraftProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Crafts.FollowersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Crafts.Details"
+            android:exported="false" />
+        <activity
+            android:name=".Crafts.EditDetialsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Crafts.Address"
+            android:exported="false" />
+        <activity
+            android:name=".SellerLogin.SignInSeller"
+            android:exported="false" />
+        <activity
+            android:name=".SellerLogin.SignUpSeller"
+            android:exported="false" /> <!-- Main Fragment User -->
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" /> <!-- Main Fragment Crafts -->
+        <activity
+            android:name=".fragmentCrafts.MainActivity2"
+            android:exported="false"></activity> <!-- Activity Seller -->
+        <activity
+            android:name=".Seller.MyProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Seller.FollowersActivitySeller"
+            android:exported="false" />
+        <activity
+            android:name=".Seller.Saved_Product"
+            android:exported="false" />
+        <activity
+            android:name=".Seller.MyRequest"
+            android:exported="false" />
+        <activity
+            android:name=".Seller.Setting"
+            android:exported="false" />
+        <activity
+            android:name=".Crafts.CraftFirstStepPayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seller.Technical_Support"
+            android:exported="false" />
+        <activity
+            android:name=".Seller.Craft_Owner"
+            android:exported="false" />
+        <activity
+            android:name=".Seller.ProductDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Seller.CraftProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Seller.DoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seller.DeliveryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Seller.FirstStepPuy"
+            android:exported="false" /> <!-- Activity Crafts -->
+        <activity
+            android:name=".Crafts.Home"
+            android:exported="false" />
+        <activity
+            android:name=".Crafts.Account"
+            android:exported="false" />
+        <activity
+            android:name=".Crafts.Saved_Product"
+            android:exported="false" />
+
+        <activity
+            android:name=".Crafts.ProductDetails"
+            android:exported="false" />
+
+        <activity
+            android:name=".Crafts.MyProduct"
+            android:exported="false" />
+
+        <activity
+            android:name=".Login.success"
+            android:exported="false" />
+        <activity
+            android:name=".Login.ForgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Login.newPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Crafts.CraftFollowerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.SignUpCraft"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".Login.SignIn" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".Login.Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login.Verification"
+            android:exported="false" />
+        <activity
+            android:name=".Login.Welcome"
+            android:exported="false" />
+    </application>
+
+</manifest>

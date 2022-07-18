@@ -1,0 +1,64 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#666666">
+
+    <item
+        android:id="@+id/ic_home"
+        android:icon="@drawable/home"
+        android:title="الرئيسية"
+        app:cnb_backgroundColor="#38C98C"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff" />
+    <item
+        android:id="@+id/ic_craftsmen"
+        android:icon="@drawable/businessman"
+        android:title="الحرفيين"
+        app:cnb_backgroundColor="#38C98C"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff" />
+    <item
+        android:id="@+id/ic_cart"
+        android:icon="@drawable/shoppingbag"
+        android:title="عربة التسوق"
+        app:cnb_backgroundColor="#38C98C"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff" />
+    <item
+        android:id="@+id/ic_profile"
+        android:icon="@drawable/user"
+        android:title="الملف الشخصي"
+        app:cnb_backgroundColor="#38C98C"
+        app:cnb_iconColor="#fff"
+        app:cnb_textColor="#fff" />
+
+    <!--<item-->
+    <!--    android:id="@+id/ic_home"-->
+    <!--    android:icon="@drawable/home"-->
+    <!--    android:title="الرئيسية"-->
+    <!--    app:cnb_textColor="#fff"-->
+    <!--    app:cnb_backgroundColor="#38C98C"-->
+    <!--    app:cnb_iconColor="#fff"/>-->
+
+    <!--<item-->
+    <!--    android:id="@+id/ic_cart"-->
+    <!--    android:icon="@drawable/bag"-->
+    <!--    android:title="عربة التسوق"-->
+    <!--    app:cnb_textColor="#fff"-->
+    <!--    app:cnb_backgroundColor="#38C98C"-->
+    <!--    app:cnb_iconColor="#fff"/>-->
+    <!--<item-->
+    <!--    android:id="@+id/ic_profile"-->
+    <!--    android:icon="@drawable/profile"-->
+    <!--    android:title="الملف الشخصي"-->
+    <!--    app:cnb_textColor="#fff"-->
+    <!--    app:cnb_backgroundColor="#38C98C"-->
+    <!--    app:cnb_iconColor="#fff"/>-->
+    <!--<item-->
+    <!--    android:id="@+id/ic_craftsmen"-->
+    <!--    android:icon="@drawable/craftsmen"-->
+    <!--    android:title="الحرفيين"-->
+    <!--    app:cnb_textColor="#fff"-->
+    <!--    app:cnb_backgroundColor="#38C98C"-->
+    <!--    app:cnb_iconColor="#fff"/>-->
+
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tender</string>
+    <string name="st1">- ألتقط صورة واضحة بدون فلاتر .</string>
+    <string name="string">أدخل عنوان البريد الالكتروني المرتبط بحسابك.</string>
+
+    <string name="string1">سنرسل لك رابطا عبر البريد الالكتروني لاعادة تعيين كلمة السر خاصتك.</string>
+
+    <string name="string2">سنرسل لك رابطا عبر البريدالالكتروني لاعادة تعيين كلمة السر خاصتك.</string>
+
+    <string name="string3">أدخل رمز التحقق \n لقد أرسلنا لك للتو على عنوان بريدك الإلكتروني</string>
+</resources>
